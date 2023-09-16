@@ -11,16 +11,16 @@ a {
 }
 
 .header-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header-logo-blue {
-  color: #4d5ae5;
+.header-logo-black {
+  color: #2e2f42;
 }
 .header-menu-link {
   color: #2e2f42;
@@ -33,13 +33,15 @@ a {
 .header-menu-link:focus {
   color: #404bbf;
 }
+address {
+  font-style: normal;
+}
 .header-address-link {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.01em;
-  font-style: normal;
+  letter-spacing: 0.02em;
 }
 .header-address-link:hover,
 .header-address-link:focus {
@@ -59,14 +61,14 @@ a {
 }
 .btn-hero {
   color: #fff;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
-  border-radius: 4px;
+  cursor: pointer;
 }
 .btn-hero:hover,
 .btn-hero:focus {
@@ -85,6 +87,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.team {
+  background-color: #f4f4fd;
+}
 .team-title {
   color: #2e2f42;
   text-align: center;
@@ -93,6 +98,9 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.team-item {
+  background-color: #ffffff;
 }
 .team-subtitle {
   color: #2e2f42;
@@ -108,6 +116,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -117,6 +126,7 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
 .portfolio-subtitle {
   color: #2e2f42;
   font-size: 20px;
@@ -134,16 +144,16 @@ a {
   background-color: #2e2f42;
 }
 .footer-logo {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-logo-blue {
-  color: #4d5ae5;
+.footer-logo-white {
+  color: #f4f4fd;
 }
 
 .footer-text {
