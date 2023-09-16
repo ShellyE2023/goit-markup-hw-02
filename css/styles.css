@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: ;
+  background-color: ;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-blue {
+  color: #4d5ae5;
+}
+.header-menu-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-address-link {
+  display: flex;
+  width: 153px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.portfolio-title {
+}
